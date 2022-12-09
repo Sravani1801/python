@@ -2,6 +2,23 @@
 A brief repo on python language
 python is a user friendly language
 some basic topics of python language
+extension of python program file is .py
+
+
+Basic hello world python program:
+print("Hello World!)
+OUTPUT:Hello World!
+
+
+comments in python:
+they do not appear in console
+they are defined with '#'
+example:
+#it's just a comment
+print("sravani")
+OUTPUT: sravani
+
+
 LIST:
 char = ["john","peter"]
 print(char[0])
