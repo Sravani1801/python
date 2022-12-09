@@ -109,3 +109,12 @@ we can also create new files:
 list_of_students = open("styles.css" , "a")
 styles.css.write("it's just styling the webpage")
 styles.css.close()
+
+
+MODULES:
+we export other files where we can use functions from other files.
+import user_list
+print(user_list.branch)
+user_list is a file
+
+
