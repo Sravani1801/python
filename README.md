@@ -47,3 +47,20 @@ OUTPUT: 1
         4
 
 
+BUILDING A TRANSLATOR:
+def translate(phrase):
+    translation=""
+    for letter in phrase:
+        if letter.lower in "aeiou":
+            if letter.isupper():
+                translation = translate + "S"
+            else:
+                translation = translate + "s"
+        else:
+            translation = translation + letter
+     return translation
+ print(translate("Endless Life"))
+ OUTPUT: Sndlsss Lsfs
+ 
+ 
+ 
