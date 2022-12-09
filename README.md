@@ -31,3 +31,19 @@ def power_of_num(base,power):
     return result
 print(power_of_num(2,4))
 OUTPUT: 16
+
+
+TWO DIMENSIONAL LIST AND NESTED FOR LOOP:
+num_grid=[
+      [1,2]
+      [3,4]
+]
+for row in num_grid
+    for col in row:
+        print(col)
+OUTPUT: 1
+        2
+        3
+        4
+
+
