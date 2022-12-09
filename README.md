@@ -80,4 +80,32 @@ def translate(phrase):
  OUTPUT: Sndlsss Lsfs
  
  
- 
+TRY EXCEPT:
+#it catches errors
+try:
+    result = 7/0
+    num = int(input("enter a number: "))
+    print(num)
+except dividedbyzeroerror:
+    print("division by zero")
+except ValueError:
+    print("invalid input")
+OUTPUT: division by zero
+
+
+Reading files:
+if there exists a seperate file called students_list from which we need information, format for opening and reading that file is :
+open("students_list","r")
+
+
+we can also write/append to files:
+for appending:
+list_of_students = open("students_list" , "a")
+students_list.write("abhigna - ECE")
+students_list.close()
+
+
+we can also create new files:
+list_of_students = open("styles.css" , "a")
+styles.css.write("it's just styling the webpage")
+styles.css.close()
